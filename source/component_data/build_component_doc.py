@@ -246,6 +246,11 @@ for key, valueslist in models_data.iteritems():
         # default properties values may be different for components using the same model
         reSt.append( reStCompProp(value) )
 
+        # add additional notes from external file, if available
+        fn = 'component_notes/%s.rst' % label
+        if (os.path.isfile('../' + fn) ):
+            reSt.append( '.. include:: %s' % fn)
+
         # add transition marker (horizontal line)
         reSt.append( '\n----\n')
 
