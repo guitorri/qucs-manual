@@ -13,6 +13,7 @@ Contents:
 
    component_description
    quick_reference
+   categories_reference
    component_reference
 
 

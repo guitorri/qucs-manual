@@ -4,7 +4,7 @@
 ## Qucs manual
 
 This is a demo/exploration for automatic generation of a component reference manual for Qucs.
-It makes use of commands built in the Qucs comannd line interface to generate component icons and data.
+It makes use of commands built in the Qucs command line interface to generate component icons and data.
 A Python script transforms the generated data into a reStructured markup language.
 The generated files are included into a Sphinx documentation generation project to create `html` and `pdf` outputs.
 
@@ -30,9 +30,9 @@ The command generates all the icons of the registered components as `.png` into 
 
 - `$ qucs -doc`
 
-The command generares the following text files:
+The command generates the following text files:
 
-- `caterories.txt` containig the name of the caterories (same order as in Qucs)
+- `categories.txt` containing the name of the categories (same order as in Qucs)
   - `./[first category]/`
     - `01_data.csv` contains the data of the component object
     - `01_prop.csv` contains the properties of the component
@@ -41,7 +41,7 @@ The command generares the following text files:
 
 The document generation makes use of Sphinx and reStructured markup language.
 
-Based on the above data obtained automatically the *Quick Reference* and *Component Reference* sections of the manual are automatically created.
+Based on the above data obtained automatically the *Quick Reference*, *Component Reference* and *Categories Reference* sections of the manual are automatically created.
 
 The icons are copied into the `source` directory
 
@@ -66,11 +66,11 @@ To generate the final `html` and `pdf` documentation:
     make html
     make latexpdf
 
-Outpus can be found in the `build/` directory.
+Outputs can be found in the `build/` directory.
 
 ## Translations
 
-Most of *Quick Reference* and *Component Reference* translations can be retrieved from the Qucs TS files.
+Most of *Quick Reference*, *Component Reference* and *Categories Reference* translations can be retrieved from the Qucs TS files.
 
 See scripts:
 

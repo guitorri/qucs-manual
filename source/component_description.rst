@@ -3,8 +3,8 @@ Component Description
 =====================
 
 
-Typicaly the *Qucs* schematic is saved as a ``.sch`` file to store the components, wires, painigs and settings defined by the user.
-Prior to simulation with *Qucsator* the schematic is translated into a ``.txt`` netlist file which is presente to the simulator.
+Typically the *Qucs* schematic is saved as a ``.sch`` file to store the components, wires, paintings and settings defined by the user.
+Prior to simulation with *Qucsator* the schematic is translated into a ``.txt`` netlist file which is presented to the simulator.
 The general format of schematic and netlist entries are listed below.
 
 
@@ -26,7 +26,7 @@ Examples:
   ``<Circulator X1 1 410 400 -26 -33 0 0 "50 Ohm" 0 "50 Ohm" 0 "50 Ohm" 0>``
 
 
-Note that the ``GND`` ground componet will not be present on the netlist.
+Note that the ``GND`` ground component will not be present on the netlist.
 The ground node is unique and implicitly devined by the simulator.
 
 
@@ -35,7 +35,7 @@ Netlist Component
 
 Netlist entry general form:
 
-  ``[model]:[name][number] _net[number]+ [propery="value"]*``
+  ``[model]:[name][number] _net[number]+ [property="value"]*``
 
 Examples:
 
