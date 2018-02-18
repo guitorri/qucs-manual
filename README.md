@@ -41,7 +41,7 @@ The command generates the following text files:
 
 The document generation makes use of Sphinx and reStructured markup language.
 
-Based on the above data obtained automatically the *Quick Reference* and *Component Reference* sections of the manual are automatically created.
+Based on the above data obtained automatically the *Quick Reference*, *Component Reference* and *Categories Reference* sections of the manual are automatically created.
 
 The icons are copied into the `source` directory
 
@@ -70,7 +70,7 @@ Outputs can be found in the `build/` directory.
 
 ## Translations
 
-Most of *Quick Reference* and *Component Reference* translations can be retrieved from the Qucs TS files.
+Most of *Quick Reference*, *Component Reference* and *Categories Reference* translations can be retrieved from the Qucs TS files.
 
 See scripts:
 
